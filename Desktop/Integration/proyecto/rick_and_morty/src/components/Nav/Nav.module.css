@@ -1,0 +1,70 @@
+.navBar{
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo negro translúcido */
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.search{
+    display: flex;
+    justify-content: flex-end;
+    transition: transform 0.2s ease-in-out;
+}
+
+.search button{
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 1em;
+    margin-left: 20px;
+    color: white;
+    background-color: black;
+    transition: transform 0.2s ease-in-out; 
+}
+
+.search #random:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 5px #fbff00f7,0 0 15px #fbff00f7, 0 0 30px #fbff00f7, 0 0 50px #fbff00f7;
+    text-shadow:0 0 5px #fbff00f7,0 0 15px #fbff00f7, 0 0 30px #fbff00f7, 0 0 60px #fbff00f7;
+}
+
+#random{
+    cursor: pointer;
+}
+
+#buttonLogout{
+    color: white;
+    cursor: pointer;
+}
+
+#buttonLogout:hover{
+    transform: scale(1.1);
+    color: white;
+    box-shadow: 0 0 5px #ff0000e0,0 0 15px #ff0000e0, 0 0 30px #ff0000e0, 0 0 50px #ff0000e0;
+    text-shadow:0 0 5px #ff0000e0,0 0 15px #ff0000e0, 0 0 30px #ff0000e0, 0 0 60px #ff0000e0;
+}
+
+.links{
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+.links button{
+    text-decoration: none;
+    background-color: black;
+    border-radius: 15px;
+    padding: 1em;
+    margin-left: 20px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.links button .link{
+    text-decoration: none !important;
+    color: white;
+    transition: transform 0.2s ease-in-out;
+}
+
+.links button:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 2px 10px rgba(248, 247, 247, 0.786);
+}

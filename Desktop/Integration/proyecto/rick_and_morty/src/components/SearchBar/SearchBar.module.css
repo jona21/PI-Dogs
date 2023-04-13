@@ -1,0 +1,21 @@
+#buttonSearch{
+    cursor: pointer;
+}
+
+#buttonSearch:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 5px #15ff00ef,0 0 15px #15ff00ef, 0 0 30px #15ff00ef, 0 0 50px #15ff00ef;
+    text-shadow:0 0 5px #15ff00ef,0 0 15px #15ff00ef, 0 0 30px #15ff00ef, 0 0 50px #15ff00ef;
+}
+
+#inputSearch{
+    border-radius: 6px;
+    border: 1px solid white;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.64);
+    height: 30px;
+}
+
+#inputSearch:focus{
+    box-shadow:0 0 5px #fdfcfced,0 0 15px #fdfcfced, 0 0 30px #fdfcfced, 0 0 60px #fdfcfced;
+}

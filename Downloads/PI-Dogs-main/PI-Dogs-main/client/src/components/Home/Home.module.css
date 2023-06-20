@@ -1,0 +1,121 @@
+.background{
+    background: url('./fond.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 1600px;
+}
+button{ 
+    cursor: pointer; 
+    border: none;
+    position: relative;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    background: none;
+}
+
+.logo{
+    float: left;
+    color: black;
+    height: 100%;
+    width: 125px;
+    margin: 0.3rem 0;
+    background-image: url("./logo.png");
+    background-size: cover;
+    border-radius: 4px;
+}
+
+.header_container_left{
+    margin: 0 6%;
+    padding-bottom: 0.5rem;
+    display: block;
+}
+
+.header_left{
+    padding-top: 0.6rem;
+}
+
+.container_filters{
+    width: 190%;
+    margin-top: 1.3rem;
+    border-radius: 25px;
+}
+
+.container_filters select{
+    padding: 0.5rem 0.9rem;
+    border: 1px solid white;
+    box-shadow: 5px 5px 5px 0.5px rgba(0,0,0,0.4);
+    background-color: transparent;
+    color:white;
+    cursor: pointer;
+}
+.container_filters select option{
+    color: black;
+}
+
+.container_filters select:first-child{
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+.container_filters select:last-child{
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.header_right{
+    margin: 0.5rem 6%;
+}
+
+.button_add_dog{
+    width: 100%;
+    max-width: 370px;
+    font-size: 0.9rem; 
+    padding: 0.6rem 0.6rem;
+    z-index: 100;
+    border: 0.1rem solid #aab625;
+    outline: 0.1rem solid #aab625;
+    text-shadow: 0 0 3px #aab625;
+    background: transparent;
+    box-shadow: 5px 3px 5px 0.5px rgba(0,0,0,0.6);
+    transition: transform 0.2s ease-in-out;
+}
+
+.button_add_dog:hover{
+    transform: scale(0.9);
+    background-color: rgba(248, 247, 247, 0.786);
+    color: black;
+}
+
+.main_container{
+    margin: 0 5% 0 5%;
+}
+
+.container_cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5% 0.9%;
+    justify-items: center;
+    padding: 2rem 0 2rem 0;
+}
+
+.container_card{
+    background-color: #7d7e7b80;
+    width: 93.5%;
+    border-radius: 1px;
+    overflow: hidden;
+    position: relative;
+}
+
+.container_card:hover{
+    cursor: pointer;
+}
+
+
+.pagination{
+    margin-left: 0;
+    padding-left: 0;
+    position: inherit;
+}
